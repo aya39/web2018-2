@@ -1,7 +1,7 @@
-function txtchage1(){
+function txtchange1(){
   document.getElementById('txt1').innerHTML='ナンバーワン!';
 }
 
 function imgchange1(){
-  document.getElementById('logo').src='./image/inu.png';
+  document.getElementById('logo').src='./image/neko.png';
 }
