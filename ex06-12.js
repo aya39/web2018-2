@@ -1,8 +1,10 @@
-function txtchange1(){
-  document.getElementById('txt1').innerHTML='ナンバーワン!';
+function txtchange2(){
+  document.getElementById('txt2').innerHTML='ナンバーワン!';
 }
 
-function imgchange1(){
-  document.getElementById('image1').src='./image/'goru.png
-  ;
+
+
+function imgchange2(){
+  document.getElementById('logo2').src='./image/goru.png';
 }
+
