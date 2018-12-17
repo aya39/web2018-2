@@ -13,6 +13,7 @@
  <script src="ex06-11.js"></script>
    <script src="ex09-2.js"></script>
    <script src="ex06-12.js"></script>
+   <script src="ex06-13.js"></script>
 
   
 </head>
@@ -70,23 +71,21 @@
   <p><input type="button" value="実行ボタン"
             onclick="addCount()"></p>
     
-  <h1>タイマーイベントによる実行6-12</h1>
-  <div id="txt2">
-  <input type="button" value="テキストの変更" onclick="txtchange2();">
-    城西大学</div>
 
-  <div id="image2">
- <input type="button" value="画像の変更" onclick="imgchange2('mes()',3000)";>                                                          
-  <img src='./image/hasiru.jpg' id="logo2" alt="hasiru Logo2"></div>
+  
+ <h1>タイマーイベントによる実行6-12</h1>
+      <input type="button" value="3秒で変更" onclick="ThreeSecChange2();">
+  <img src='./image/hasiru.jpg' id="logo2" alt="hasiru Logo2">
+  <br>
+  
+   <h1>タイマーイベントによる実行の応用6-13</h1>
+  <div id="back">
+      <input type="button" value="変更後3秒でまた戻る" 
+             onclick="ChangeImageAndBack();">
     
- <form>
- 
-    <input type="button" value="Timer" onclick="imgchange2('mes()',3000)">
-    <img src='./image/hasiru.jpg' id="logo2" alt="hasiru Logo2"></div>
-  </form>
-  
-  
-  
+  <img src='./image/hasiru.jpg' id="logo3" alt="hasiru Logo3" class="imagechange">
+  </div>
+  <br>
   
   
   
