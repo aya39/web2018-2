@@ -2,16 +2,16 @@ function ChangeImageAndBack(){
   
   imgback();
   
-  ThreeSecChange3(); 
+  ThreeSecChange4(); 
   
 }
 
 
-function ThreeSecChange3(){
-  setTimeout("imgchange3()",3000);
+function ThreeSecChange4(){
+  setTimeout("imgchange4()",3000);
 }
-function imgchange3() {
-  document.getElementById('logo3').src = './image/hasiru.jpg';
+function imgchange4() {
+  document.getElementById('logo4').src = './image/honoruru.jpg';
 }
 
 //function ThreeSecBack() { 
@@ -19,6 +19,7 @@ function imgchange3() {
 //  setInterval("imgback()",3000);
 //}
 
+
 function imgback() {
-  document.getElementById('logo3').src = './image/goru.png';
+  document.getElementById('logo4').src = './image/honoruru2.jpg';
 }
