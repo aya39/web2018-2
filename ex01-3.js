@@ -7,6 +7,6 @@ function txtchange3(){
  
 
 
-function imgchange2(){
-  document.getElementById('logo2').src='./aya.jpg';
+function imgchange5(){
+  document.getElementById('logo5').src='./image/goru.png';
 }
