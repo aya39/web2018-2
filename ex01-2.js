@@ -14,3 +14,6 @@ function startfnc(){
   //
   setInterval("hyoji()",1000);}
 
+function imgchange10(){
+  document.getElementById('logo10').src='./aya now.jpg';
+}
