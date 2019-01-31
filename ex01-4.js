@@ -11,7 +11,7 @@ function ThreeSecChange4(){
   setTimeout("imgchange4()",3000);
 }
 function imgchange4() {
-  document.getElementById('logo4').src = './image/honoruru.jpg';
+  document.getElementById('logo4').src = './image/hanabi.png';
 }
 
 //function ThreeSecBack() { 
@@ -21,5 +21,5 @@ function imgchange4() {
 
 
 function imgback() {
-  document.getElementById('logo4').src = './image/honoruru2.jpg';
+  document.getElementById('logo4').src = './image/hanabi1.png';
 }
